@@ -48,7 +48,6 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  console.log("ppp");
   let license = renderLicenseSection(data.license)
   return `![license](${license.badge})
   # ${data.projectTitle}
@@ -80,7 +79,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  - GitHub profile: [GitHub Profile](https://${data.profile}.github.com)
+  - GitHub profile: [GitHub Profile](https://github.com/${data.profile}/)
   - Email me at: ${data.email}
 `;
 }

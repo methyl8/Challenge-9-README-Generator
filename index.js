@@ -78,7 +78,7 @@ function init() {
   )
   .then((answers) => {
     // Use user feedback for... whatever!!
-    fs.writeFile("./README.md",genMd(answers), (err) => 
+    fs.writeFile("./generated-README.md",genMd(answers), (err) => 
     {
       if(err) {console.error(err)}
     })
