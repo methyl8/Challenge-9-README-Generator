@@ -10,7 +10,8 @@ Necessary components will be installed with
 
 ## Usage
 Run the following command from the terminal  
-node index.js
+node index.js  
+Generated README is output as generated-README.md
 
 ## Example
 [Example Video](https://drive.google.com/file/d/1n9ekugGrqDWYsf7ldKa6yEd7iCcfBsFA/view)
